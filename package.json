@@ -1,0 +1,15 @@
+{
+  "name": "atlp-portfolio-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connect.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Grace D.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10"
+  }
+}

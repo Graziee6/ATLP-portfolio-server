@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
 const articleSchema = mongoose.Schema({
-  thumbnail: Image,
+  // thumbnail: File,
   title: String,
   content: String,
 });
 
-mongoose.model("Article", articleSchema);
+module.exports = mongoose.model("Article", articleSchema);
